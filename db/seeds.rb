@@ -23,7 +23,7 @@ puts "5 skilss created!!!"
         subtitle: "My greate service",
         body: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
         main_image:"https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97200&w=350&h=200" ,
-        thumb_images: "https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97200&w=350&h=200" ,
+        thumb_images: "https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97200&w=350&h=200"
 
     )
 end

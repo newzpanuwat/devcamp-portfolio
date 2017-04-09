@@ -61,6 +61,19 @@ class BlogsController < ApplicationController
     end
   end
 
+
+def toggle_status
+  def draft
+    @blog.published! if @blog.draft?
+    
+  end
+  
+  def published
+  @blog.draft! if @blog.published?
+ end
+redirect_to blogs_url, notice: 'Published or Draft status has been updated!'
+end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_blog
